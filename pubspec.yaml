@@ -1,0 +1,77 @@
+name: e_learning_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.3.1
+  country_picker: ^2.0.23
+  cupertino_icons: ^1.0.2
+  dropdown_button2: ^2.3.9
+  flutter:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.1
+  flutter_svg: ^2.0.9
+  flutter_xlider: ^3.5.0
+  get: ^4.6.6
+  percent_indicator: ^4.2.3
+  pinput: ^3.0.1
+  readmore: ^2.2.0
+  step_progress_indicator: ^1.0.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/avenir/Avenir Book.ttf
+          weight: 200
+        - asset: assets/fonts/avenir/Avenir Light.ttf
+          weight: 300
+        - asset: assets/fonts/avenir/Avenir Regular.ttf
+          weight: 400
+        - asset: assets/fonts/avenir/Avenir Medium.ttf
+          weight: 500
+        - asset: assets/fonts/avenir/Avenir Black.ttf
+          weight: 800
+        - asset: assets/fonts/avenir/Avenir Heavy.ttf
+          weight: 900
+
+    - family: Gill Sans
+      fonts:
+        - asset: assets/fonts/gill_sans/Gill_Sans_Light.otf
+          weight: 300
+        - asset: assets/fonts/gill_sans/Gill_Sans.otf
+          weight: 400
+        - asset: assets/fonts/gill_sans/Gill_Sans_Medium.otf
+          weight: 500
+        - asset: assets/fonts/gill_sans/Gill_Sans_Bold.otf
+          weight: 700
+        - asset: assets/fonts/gill_sans/Gill_Sans_Heavy.otf
+          weight: 800
+
+    - family: GIL SANS DISPLAY MT PRO
+      fonts:
+        - asset: assets/fonts/gill_sans_display_mt_pro/gillsansdisplaymtpro-bold.otf
+          weight: 700
+        - asset: assets/fonts/gill_sans_display_mt_pro/gillsansdisplaymtpro-exbd.otf
+          weight: 800
+
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/constants/
+  filename: app_images.dart
+  field_prefix: ''
